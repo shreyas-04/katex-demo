@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'latex';
+  equation: string = '\\sum_{i=1}^nx_i';
+
 }
+
